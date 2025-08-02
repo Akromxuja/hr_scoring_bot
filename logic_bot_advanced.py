@@ -49,7 +49,7 @@ def save_answer(row):
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text(
-        "👋 Добро пожаловать в HR Scoring Bot!
+        "👋 Добро пожаловать в HR Scoring Bot!"
 
 Выберите действие:",
         reply_markup=markup,
